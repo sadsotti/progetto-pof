@@ -71,7 +71,7 @@ git clone https://github.com/sadsotti/pof-system.git
 
 Dopo la clonazione, entra nella cartella del progetto:
 ```bash
-cd progetto-pof
+cd pof-system
 ```
 
 ## 🛠️ Istruzioni per la Compilazione ed Esecuzione
@@ -84,13 +84,13 @@ mvn clean package
 ```
 
 Al termine del processo, troverai il file generato nel percorso:
-`target/progetto-pof-0.0.1.jar`
+`target/pof-system-0.0.1.jar`
 
 ### Esecuzione
 Per avviare correttamente l'applicazione, assicurati che i file di persistenza (`prodotti.csv`, `utenti.csv`, `vendite.csv`) siano presenti nella stessa directory da cui lanci il comando. Esegui quindi:
 
 ```bash
-java -jar target/progetto-pof-0.0.1.jar
+java -jar target/pof-system-0.0.1.jar
 ```
 
 **Requisiti di sistema:** È necessario Java 17 o superiore installato, come specificato nella configurazione del compilatore Maven.
