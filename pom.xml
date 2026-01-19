@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   
   <groupId>it.pof</groupId>
-  <artifactId>progetto-pof</artifactId>
+  <artifactId>pof-system</artifactId>
   <version>0.0.1</version>
   <packaging>jar</packaging>
 
